@@ -1,4 +1,6 @@
 
+# Caminho do repositorio
+* C:\Users\Marcio\Documents\GitHub\bigdata>
 
 * GIT/GITHUB * 
 
