@@ -1,2 +1,0 @@
-# bigdata
-teste para semantix
