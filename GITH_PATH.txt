@@ -1,0 +1,14 @@
+
+
+# Adicionar o github na PATH.
+
+1- Abrir a variavel de ambiente.
+2- Abri a variavel PATH;
+
+3- inserir a instrução abaixo:
+ C:\Program Files\Git\bin\git.exe
+ C:\Program Files\Git\cmd
+
+4- ok, ok!
+
+

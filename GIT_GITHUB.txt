@@ -1,0 +1,68 @@
+
+
+* GIT/GITHUB * 
+
+# stage area = 
+# working dir = diretorio local onde esta o repositório.
+
+------------------------------------------------------------------------
+# git init
+
+# inicializar o repositorio git;
+# responsavel por iniciar um repositorio localmente na máquina.
+
+# fazer o git init na pasta do repositório onde fez o clone.
+git init
+
+------------------------------------------------------------------------
+# git status
+
+# verifica o status dos arquivos;
+
+------------------------------------------------------------------------
+# git add
+
+# adiciona o arquivo na stage area; 
+
+git add <file.txt>
+------------------------------------------------------------------------
+
+# Untracked files:
+# Situação em que o git não esta monitorando as alterações feitas.
+
+ Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GIT_GITHUB.txt
+        GITH_PATH.txt
+
+# fazer o git add 
+git add GIT_GITHUB.txt
+git add GITH_PATH.txt
+
+
+# git status;
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   GITH_PATH.txt
+        new file:   GIT_GITHUB.txt
+        new file:   arquivo01.txt
+
+------------------------------------------------------------------------
+# git rm --cached <arq.txt>
+
+# remove o arquivo da 
+
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
