@@ -54,6 +54,7 @@ Changes to be committed:
 
 ------------------------------------------------------------------------
 # git commit -m <"comentario"> 
+
 # Colocar um novo <"Comentario"> toda vez que fazer -m commit.
 
 C:\Users\Marcio\Documents\GitHub\bigdata>git commit -m "Treinamento de GitHub"
@@ -68,6 +69,7 @@ Your branch is ahead of 'origin/main' by 2 commits.
 nothing to commit, working tree clean
 
 C:\Users\Marcio\Documents\GitHub\bigdata>
+
 
 ------------------------------------------------------------------------
 # git commit -m "aula 8 - git remote"
@@ -98,12 +100,38 @@ Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/maoshie/bigdata.git
    043726c..5aaf812  main -> main
 
+# após fazer o commit, fazer o git push.
+
+------------------------------------------------------------------------
+# git commit -m "aula 10 - git pull"
+
+# git pull --> Pegar o arquivo da origem github/maoshie
+
+# Quando a base já esta atualizado.
+C:\Users\Marcio\Documents\GitHub\bigdata>git pull
+Already up to date.
+
+# Quando o arquivo sofreu alguma alteração;
+C:\Users\Marcio\Documents\GitHub\bigdata>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 691 bytes | 49.00 KiB/s, done.
+From https://github.com/maoshie/bigdata
+   63aafe1..c59a474  main       -> origin/main
+Updating 63aafe1..c59a474
+Fast-forward
+ GITH_PATH.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 ------------------------------------------------------------------------
 
+------------------------------------------------------------------------
 
+------------------------------------------------------------------------
 
-
+------------------------------------------------------------------------
 
 
 
