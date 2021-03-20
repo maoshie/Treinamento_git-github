@@ -20,9 +20,8 @@ git init
 # verifica o status dos arquivos;
 
 ------------------------------------------------------------------------
-# git add
-
-# adiciona o arquivo na stage area; 
+# git add = adiciona o arquivo na stage area; 
+# git add * = add todos os arquivos do repositorio que estão untracked.
 
 git add <file.txt>
 ------------------------------------------------------------------------
@@ -51,18 +50,86 @@ Changes to be committed:
 ------------------------------------------------------------------------
 # git rm --cached <arq.txt>
 
-# remove o arquivo da 
+# remove o arquivo da stage area.
+
+------------------------------------------------------------------------
+# git commit -m <"comentario"> 
+# Colocar um novo <"Comentario"> toda vez que fazer -m commit.
+
+C:\Users\Marcio\Documents\GitHub\bigdata>git commit -m "Treinamento de GitHub"
+[main 1808428] Treinamento de GitHub
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+C:\Users\Marcio\Documents\GitHub\bigdata>git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Marcio\Documents\GitHub\bigdata>
+
+------------------------------------------------------------------------
+# git commit -m "aula 8 - git remote"
+
+# git remote 
+
+C:\Users\Marcio\Documents\GitHub\bigdata>git remote
+origin
+
+C:\Users\Marcio\Documents\GitHub\bigdata>git remote -v
+origin  https://github.com/maoshie/bigdata.git (fetch)
+origin  https://github.com/maoshie/bigdata.git (push)
+
+------------------------------------------------------------------------
+# git commit -m "aula 9 - git push"
+
+# git push --> enviar;
+# pegar o conteudo da pasta e enviar ao servidor;
+
+# todo o conteudo da pasta bigdata local, foi enviado ao servidor github/maoshie.
+C:\Users\Marcio\Documents\GitHub\bigdata>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.27 KiB | 1.27 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/maoshie/bigdata.git
+   043726c..5aaf812  main -> main
+
 
 ------------------------------------------------------------------------
 
 
 
-------------------------------------------------------------------------
 
 
 
-------------------------------------------------------------------------
 
 
 
-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
