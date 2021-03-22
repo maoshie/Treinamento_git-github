@@ -2,6 +2,8 @@
 
 # Adicionar o github na PATH.
 
+#Baixar e instalar o git;
+
 1- Abrir a variavel de ambiente.
 2- Abri a variavel PATH;
 
